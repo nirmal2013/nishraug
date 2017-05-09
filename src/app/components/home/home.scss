@@ -1,0 +1,16 @@
+.home_container {
+  .user_title {
+    padding-left: 15px;
+    padding-right: 0 !important;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .user_title {
+        display: none !important;
+    }
+    .accCircle {
+      margin-right: 0 !important;
+    }
+  }
+
+}

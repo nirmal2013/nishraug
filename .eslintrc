@@ -1,0 +1,54 @@
+{
+	"plugins": [
+		"react"
+	],
+	"env": {
+		"browser": true,
+		"node": true,
+		"commonjs": true,
+		"es6": true,
+		"jasmine": true,
+		"phantomjs": true,
+		"jquery": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true,
+			"modules": true
+		}
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended"
+	],
+	"rules": {
+		"no-console": 0,
+		"semi": [ "error", "always" ],
+		"no-case-declarations": 0,
+		"react/display-name": 0,
+		"react/prop-types": 1,
+		"no-unused-vars": ["error", { "vars": "all", "args": "after-used" }],
+		"no-mixed-spaces-and-tabs": 1,
+		"indent": [1, "tab", {"SwitchCase": 1}],
+		"no-trailing-spaces": ["error", { "skipBlankLines": false } ],
+		"block-scoped-var": "error",
+		"curly": "error",
+		"default-case": "error",
+		"dot-location": ["error", "property"],
+		"dot-notation": "error",
+		"space-unary-ops": ["warn", { "words": true, "nonwords": false }],
+		"spaced-comment": ["error", "always", { "block": { "exceptions": ["-"] } }],
+		"space-infix-ops": "error",
+		"guard-for-in": "warn",
+		"no-multi-spaces": ["error", { "exceptions": { "Property": true, "VariableDeclarator": true } }],
+		"space-in-parens": ["error", "never"],
+		"brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+		"comma-dangle": ["error", "never"]
+	},
+	"globals": {
+		"$": true,
+		"jquery": true
+	}
+}
