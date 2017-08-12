@@ -1,5 +1,6 @@
 export const VIEW_CONSTANTS = {
-	HOME: 'HOME'
+	HOME: 'HOME',
+	LOGIN: 'LOGIN'
 };
 
 export const ACTION_CONSTANTS = {

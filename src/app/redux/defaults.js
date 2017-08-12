@@ -2,7 +2,7 @@ const defaultData = {
 	APP_NAME: 'Training App',
 	UiState: {
 		showLoading: true,
-		ViewStack: 'HOME'
+		ViewStack: 'LOGIN'
 	}
 };
 
