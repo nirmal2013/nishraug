@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import AppStore from 'app/redux/store';
 import App from 'app/app';
-import Actions from 'app/redux/actions/Actions';
+// import Actions from 'app/redux/actions/Actions';
 import * as Firebase from 'firebase/app';
 import 'app/utils/polyfills';
 
